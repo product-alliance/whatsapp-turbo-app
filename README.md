@@ -1,17 +1,23 @@
 # WhatsApp Turbo
 
-A free Windows desktop app that wraps the real WhatsApp Web and adds the power features
+A Windows desktop beta app that wraps the real WhatsApp Web and adds the power features
 WhatsApp never gave you — as buttons in the UI, not chat commands.
 
 > Unofficial community software. Not affiliated with, endorsed by, or connected to
 > WhatsApp or Meta in any way.
+
+**Current access:** this is a controlled beta. Turbo requires Google sign-in using an
+approved test account. Downloading the app does not grant beta access. Contact
+yoav@product-alliance.com to request access. Administrators can suspend access, sign out
+devices and require a minimum app version. Online clients check access every five minutes;
+cached access lasts at most 24 hours after successful verification while offline.
 
 ## What it does
 
 - **Send later** — right-click WhatsApp's own Send button (or any chat) to schedule a
   message; it sends at the time you picked, with status shown right in the chat.
 - **Follow-ups** — send now, get a reminder if nobody replies within N minutes/hours/days.
-- **Chat snooze** — hide a chat from your attention until a set time, "until tomorrow
+- **Chat snooze** — mark a chat for later until a set time, "until tomorrow
   09:00", or until they reply.
 - **Multiple WhatsApp accounts** side by side (personal + work), each with its own
   message popups and sounds.
@@ -19,7 +25,8 @@ WhatsApp never gave you — as buttons in the UI, not chat commands.
   even when the app is in the tray.
 - **Bulk chat actions** — select many chats and mark read / snooze / follow up at once.
 - **Thread summary / Ask this chat** (optional) — summarize a long thread or draft a
-  follow-up using your own OpenAI-compatible API key. The key never leaves your machine.
+  follow-up using your own OpenAI-compatible API key. Selected chat content and the key
+  are sent to the AI provider you configure.
 
 ## Download
 
@@ -27,7 +34,9 @@ WhatsApp never gave you — as buttons in the UI, not chat commands.
 2. Download **WhatsApp-Turbo-Setup-x.y.z.exe** (recommended — installs like any Windows
    app, no admin rights needed) or **WhatsApp-Turbo-Portable-x.y.z.exe** (single file,
    no installation).
-3. Run it, scan the QR code with your phone (WhatsApp → Linked devices), done.
+3. Run it, sign in with your approved Google test account, then scan the QR code with
+   your phone (WhatsApp → Linked devices). Existing linked sessions and local data are
+   retained when upgrading with Setup. Portable upgrades are manual.
 
 **Requirements:** Windows 10/11 64-bit.
 
@@ -36,8 +45,10 @@ Click *More info → Run anyway*. Building trust (code signing) may come later.
 
 ## Privacy
 
-- Everything is stored locally on your machine (schedule, settings, logs) — there is no
-  Turbo server, no account, no telemetry.
+- Scheduled messages, notes, settings, logs and your WhatsApp linked-device session are
+  stored locally. Turbo's access service stores your Google identity/email, device identifier
+  and name, app version, session/access state and administrator actions. Chat content and
+  private notes are not sent to that access service.
 - The AI features are optional and use **your own** API key, stored locally and sent only
   to the AI provider you configure.
 - Your WhatsApp session is a normal "linked device" session, like WhatsApp Desktop.

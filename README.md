@@ -6,7 +6,7 @@ WhatsApp never gave you — as buttons in the UI, not chat commands.
 > Unofficial community software. Not affiliated with, endorsed by, or connected to
 > WhatsApp or Meta in any way.
 
-**Current access:** Windows beta with self-service Google sign-in / sign-up. Your first Google sign-in automatically creates an enabled Turbo account; existing users sign in with the same Google account. WhatsApp linking is a separate step. Administrators can suspend access, sign out devices and require a minimum app version. Online clients check access every five minutes; cached access lasts at most24 hours after successful verification while offline.
+**Current access:** Windows beta with self-service Google sign-in / sign-up. New users verify their Google account, then complete registration at $49/year using promo code BETA for a 100% discount ($0). Paid checkout is unavailable during beta; payment attempts offer an email follow-up form. After BETA registration, Turbo access is enabled; existing users sign in with the same Google account. WhatsApp linking is a separate step. Administrators can suspend access, sign out devices and require a minimum app version. Online clients check access every five minutes; cached access lasts at most24 hours after successful verification while offline.
 
 ## What it does
 

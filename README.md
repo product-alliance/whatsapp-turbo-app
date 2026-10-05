@@ -26,7 +26,7 @@ WhatsApp never gave you — as buttons in the UI, not chat commands.
 
 ## Download
 
-1. Download the current Windows Setup from [Releases](../../releases).
+1. Visit the [beta download page](https://turbo.product-alliance.com/) or [Releases](../../releases).
 2. Download **WhatsApp-Turbo-Setup-x.y.z.exe** (recommended — installs like any Windows
    app, no admin rights needed) or **WhatsApp-Turbo-Portable-x.y.z.exe** (single file,
    no installation).

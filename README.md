@@ -6,11 +6,7 @@ WhatsApp never gave you — as buttons in the UI, not chat commands.
 > Unofficial community software. Not affiliated with, endorsed by, or connected to
 > WhatsApp or Meta in any way.
 
-**Current access:** this is a controlled beta. Turbo requires Google sign-in using an
-approved test account. Downloading the app does not grant beta access. Contact
-yoav@product-alliance.com to request access. Administrators can suspend access, sign out
-devices and require a minimum app version. Online clients check access every five minutes;
-cached access lasts at most 24 hours after successful verification while offline.
+**Current access:** Windows beta with self-service Google sign-in / sign-up. Your first Google sign-in automatically creates an enabled Turbo account; existing users sign in with the same Google account. WhatsApp linking is a separate step. Administrators can suspend access, sign out devices and require a minimum app version. Online clients check access every five minutes; cached access lasts at most24 hours after successful verification while offline.
 
 ## What it does
 
@@ -30,11 +26,11 @@ cached access lasts at most 24 hours after successful verification while offline
 
 ## Download
 
-1. Go to [Releases](../../releases).
+1. Download the current Windows Setup from [Releases](../../releases).
 2. Download **WhatsApp-Turbo-Setup-x.y.z.exe** (recommended — installs like any Windows
    app, no admin rights needed) or **WhatsApp-Turbo-Portable-x.y.z.exe** (single file,
    no installation).
-3. Run it, sign in with your approved Google test account, then scan the QR code with
+3. Run it, sign in or sign up with Google, then scan the QR code with
    your phone (WhatsApp → Linked devices). Existing linked sessions and local data are
    retained when upgrading with Setup. Portable upgrades are manual.
 
